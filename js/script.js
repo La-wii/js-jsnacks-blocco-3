@@ -6,6 +6,8 @@ var arrayNomi = ['Giorgio', 'Paolo', 'Francesca', 'Ilaria', 'Maria'];
 var a = parseInt(prompt('Inserisci un numero da 1 a' + ' ' + arrayNomi.length));
 var b = parseInt(prompt('Inserisci un numero da 1 a' + ' ' + arrayNomi.length));
 
+
+
 // questo è un controllo dei dati inseriti nel prompt con if ed else
 // if (a < b){
 //     console.log(PositionFromAToB(arrayNomi, a, b));
@@ -20,7 +22,7 @@ while (a > b || b > arrayNomi.length){
     a = parseInt(prompt('Inserisci un numero da 1 a' + ' ' + arrayNomi.length));
     b = parseInt(prompt('Inserisci un numero da 1 a' + ' ' + arrayNomi.length));
 }
-console.log(PositionFromAToB(arrayNomi, a, b));
+// console.log(PositionFromAToB(arrayNomi, a, b));
 
 
 
@@ -34,4 +36,7 @@ function PositionFromAToB(array, numMin, numMax){
     return arrayPositions;
 }
 
-console.log(PositionFromAToB(arrayNomi, a, b));
+var newArray = PositionFromAToB(arrayNomi,a,b);
+console.log(newArray);
+// console.log(PositionFromAToB(arrayNomi, a, b));
+
