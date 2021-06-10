@@ -2,7 +2,6 @@
 // La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri
 
 
-
 var arrayNomi = ['Giorgio', 'Paolo', 'Francesca', 'Ilaria', 'Maria'];
 var a = parseInt(prompt('Inserisci un numero da 1 a' + ' ' + arrayNomi.length));
 var b = parseInt(prompt('Inserisci un numero da 1 a' + ' ' + arrayNomi.length));
