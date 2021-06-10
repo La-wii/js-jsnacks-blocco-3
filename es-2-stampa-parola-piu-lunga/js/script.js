@@ -14,7 +14,7 @@ function lunghezzaStringhe(x,y){
     } else if (x.length < y.length) {
         return y + ' è più lunga';
     } else {
-        return x + ',' + y + ' sono della stessa lunghezza';
+        return x + 'e ' + y + ' sono della stessa lunghezza';
     }
 
 }
